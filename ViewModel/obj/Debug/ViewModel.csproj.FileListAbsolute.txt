@@ -1,0 +1,9 @@
+C:\Users\yanni\OneDrive\02_Projekte\Ernährungsplan_Programm\Ernaehrungsplan\ViewModel\bin\Debug\ViewModel.dll
+C:\Users\yanni\OneDrive\02_Projekte\Ernährungsplan_Programm\Ernaehrungsplan\ViewModel\bin\Debug\ViewModel.pdb
+C:\Users\yanni\OneDrive\02_Projekte\Ernährungsplan_Programm\Ernaehrungsplan\ViewModel\bin\Debug\Model.dll
+C:\Users\yanni\OneDrive\02_Projekte\Ernährungsplan_Programm\Ernaehrungsplan\ViewModel\bin\Debug\Model.pdb
+C:\Users\yanni\OneDrive\02_Projekte\Ernährungsplan_Programm\Ernaehrungsplan\ViewModel\obj\Debug\ViewModel.csproj.AssemblyReference.cache
+C:\Users\yanni\OneDrive\02_Projekte\Ernährungsplan_Programm\Ernaehrungsplan\ViewModel\obj\Debug\ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\yanni\OneDrive\02_Projekte\Ernährungsplan_Programm\Ernaehrungsplan\ViewModel\obj\Debug\ViewModel.csproj.CopyComplete
+C:\Users\yanni\OneDrive\02_Projekte\Ernährungsplan_Programm\Ernaehrungsplan\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\yanni\OneDrive\02_Projekte\Ernährungsplan_Programm\Ernaehrungsplan\ViewModel\obj\Debug\ViewModel.pdb
