@@ -6,7 +6,7 @@
         xmlns:myLib="clr-namespace:ViewModel;assembly=ViewModel"
         xmlns:local="clr-namespace:View"
         mc:Ignorable="d"
-        Title="Ernährungsplan" Height="450" Width="800">
+        Title="Ernährungsplan" Height="700" Width="685">
 
     <Window.DataContext>
         <myLib:ViewModel/>
@@ -15,7 +15,191 @@
     <Grid>
         <TabControl>
             <TabItem Header="Informationen" Height="40" Width="120">
-                
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="250"/>
+                        <RowDefinition Height="10"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="10"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="10"/>
+                    </Grid.RowDefinitions>
+                    
+                    <!--First main Row-->
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="10"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Grid.Column="1" Content="Ernährungsplan:" FontSize="25" VerticalContentAlignment="Center"/>
+                        <Label Grid.Column="3" Content="Version 0.0" FontSize="10" VerticalContentAlignment="Center" HorizontalAlignment="Right"/>
+
+                    </Grid>
+
+                    <!--Second main Row-->
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="10"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!--First Field-->
+                        <Border Grid.Column="1" BorderThickness="1,1,1,1" BorderBrush="Black" Background="LightGray"/>
+                        <Grid Grid.Column="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="150"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="10"/>
+                                <RowDefinition Height="28"/>
+                                <RowDefinition Height="28"/>
+                                <RowDefinition Height="28"/>
+                                <RowDefinition Height="28"/>
+                                <RowDefinition Height="28"/>
+                                <RowDefinition Height="28"/>
+                                <RowDefinition Height="28"/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Column="0" Grid.Row="0" Content="Grundinformationen:" FontSize="15" FontWeight="Black" VerticalContentAlignment="Center"/>
+                            <Label Grid.Column="0" Grid.Row="2" Content="Name:" FontSize="13" VerticalContentAlignment="Center"/>
+                            <Label Grid.Column="0" Grid.Row="3" Content="Alter:" FontSize="13" VerticalContentAlignment="Center"/>
+                            <Label Grid.Column="0" Grid.Row="4" Content="Geschlecht:" FontSize="13" VerticalContentAlignment="Center"/>
+                            <Label Grid.Column="0" Grid.Row="5" Content="Grösse [cm]:" FontSize="13" VerticalContentAlignment="Center"/>
+                            <Label Grid.Column="0" Grid.Row="6" Content="Gewicht [kg]:" FontSize="13" VerticalContentAlignment="Center"/>
+                            <Label Grid.Column="0" Grid.Row="7" Content="Zielgewicht [kg]:" FontSize="13" VerticalContentAlignment="Center"/>
+                            <Label Grid.Column="0" Grid.Row="8" Content="Ziel:" FontSize="13" VerticalContentAlignment="Center"/>
+
+                            <TextBox Grid.Column="1" Grid.Row="2" Margin="5"/>
+                            <TextBox Grid.Column="1" Grid.Row="3" Margin="5"/>
+                            <TextBox Grid.Column="1" Grid.Row="4" Margin="5"/>
+                            <TextBox Grid.Column="1" Grid.Row="5" Margin="5"/>
+                            <TextBox Grid.Column="1" Grid.Row="6" Margin="5"/>
+                            <TextBox Grid.Column="1" Grid.Row="7" Margin="5"/>
+                            <TextBox Grid.Column="1" Grid.Row="8" Margin="5"/>
+
+                        </Grid>
+
+                        <!--Second Field-->
+                        <Border Grid.Column="3" BorderThickness="1,1,1,1" BorderBrush="Black" Background="LightGray"/>
+                        <Grid Grid.Column="3">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="150"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="10"/>
+                                <RowDefinition Height="28"/>
+                                <RowDefinition Height="28"/>
+                                <RowDefinition Height="28"/>
+                                <RowDefinition Height="28"/>
+                                <RowDefinition Height="28"/>
+                                <RowDefinition Height="28"/>
+                                <RowDefinition Height="28"/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Column="0" Grid.Row="0" Content="Verbrauch:" FontSize="15" FontWeight="Black" VerticalContentAlignment="Center"/>
+                            <Label Grid.Column="0" Grid.Row="2" Content="Grundverbrauch [kcal]:" FontSize="13" VerticalContentAlignment="Center"/>
+                            <Label Grid.Column="0" Grid.Row="3" Content="Aktivitätsverbrauch:" FontSize="13" VerticalContentAlignment="Center"/>
+                            <Label Grid.Column="0" Grid.Row="4" Content="Zwischentotal [kcal]:" FontSize="13" VerticalContentAlignment="Center"/>
+                            
+                            <Label Grid.Column="0" Grid.Row="6" Content="Kalorieanpassung [kcal]:" FontSize="13" VerticalContentAlignment="Center"/>
+                           
+                            <Label Grid.Column="0" Grid.Row="8" Content="Total [kcal]:" FontSize="13" VerticalContentAlignment="Center"/>
+
+                            <TextBox Grid.Column="1" Grid.Row="2" Margin="5"/>
+                            <TextBox Grid.Column="1" Grid.Row="3" Margin="5"/>
+                            <TextBox Grid.Column="1" Grid.Row="4" Margin="5"/>
+                            
+                            <TextBox Grid.Column="1" Grid.Row="6" Margin="5"/>
+                            
+                            <TextBox Grid.Column="1" Grid.Row="8" Margin="5"/>
+
+                        </Grid>
+
+                    </Grid>
+
+                    <!--Third main Row-->
+                    <Grid Grid.Row="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="10"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Border Grid.Column="1" BorderThickness="1,1,1,1" BorderBrush="Black" Background="LightGray"/>
+                        <Grid Grid.Column="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="10"/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="10"/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="10"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition Height="10"/>
+                                <RowDefinition/>
+                                <RowDefinition Height="10"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Column="0" Grid.Row="0" Content="Tagesbedarf:" FontSize="13" FontWeight="Black" VerticalContentAlignment="Center"/>
+                            <Label Grid.Column="1" Grid.Row="0" Content="Fett:" FontSize="13" VerticalContentAlignment="Center" HorizontalAlignment="Center"/>
+                            <Label Grid.Column="3" Grid.Row="0" Content="Kohlenhydrate:" FontSize="13" VerticalContentAlignment="Center" HorizontalAlignment="Center"/>
+                            <Label Grid.Column="5" Grid.Row="0" Content="Proteine:" FontSize="13" VerticalContentAlignment="Center" HorizontalAlignment="Center"/>
+
+                            <Label Grid.Column="0" Grid.Row="1" Content="Gramm:" FontSize="13" VerticalContentAlignment="Center" HorizontalAlignment="Left"/>
+                            <TextBox Grid.Column="1" Grid.Row="1" Margin="5" Width="100"/>
+                            <TextBox Grid.Column="3" Grid.Row="1" Margin="5" Width="100"/>
+                            <TextBox Grid.Column="5" Grid.Row="1" Margin="5" Width="100"/>
+
+                            <Label Grid.Column="0" Grid.Row="3" Content="kcal:" FontSize="13" VerticalContentAlignment="Center" HorizontalAlignment="Left"/>
+                            <TextBox Grid.Column="1" Grid.Row="3" Margin="5" Width="100"/>
+                            <TextBox Grid.Column="3" Grid.Row="3" Margin="5" Width="100"/>
+                            <TextBox Grid.Column="5" Grid.Row="3" Margin="5" Width="100"/>
+
+                        </Grid>
+
+                    </Grid>
+
+                    <!--forth main Row-->
+                    <Grid Grid.Row="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="150"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="150"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Button Grid.Column="1" Margin="10" Content="Save" FontSize="15" 
+                                CommandParameter="{Binding}" 
+                                Command="{Binding}"/>
+
+                        <Button Grid.Column="3" Margin="10" Content="Load" FontSize="15" 
+                                CommandParameter="{Binding}" 
+                                Command="{Binding}"/>
+
+
+                    </Grid>
+
+
+                </Grid>
             </TabItem>
 
             <TabItem Header="Tagesplaner" Height="40" Width="120">
