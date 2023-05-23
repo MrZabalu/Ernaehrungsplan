@@ -123,6 +123,8 @@ namespace ViewModel
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Frühstück_Fett_1)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Frühstück_Kohlenhydrate_1)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Frühstück_Proteins_1)));
+
+                tagesübersicht();
             }
         }
         public double Frühstück_Energie_1 { get; set; } = 0;
@@ -189,6 +191,8 @@ namespace ViewModel
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Frühstück_Fett_2)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Frühstück_Kohlenhydrate_2)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Frühstück_Proteins_2)));
+
+                tagesübersicht();
             }
         }
         public double Frühstück_Energie_2 { get; set; } = 0;
@@ -255,6 +259,8 @@ namespace ViewModel
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Frühstück_Fett_3)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Frühstück_Kohlenhydrate_3)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Frühstück_Proteins_3)));
+
+                tagesübersicht();
             }
         }
         public double Frühstück_Energie_3 { get; set; } = 0;
@@ -321,6 +327,8 @@ namespace ViewModel
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Frühstück_Fett_4)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Frühstück_Kohlenhydrate_4)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Frühstück_Proteins_4)));
+
+                tagesübersicht();
             }
         }
         public double Frühstück_Energie_4 { get; set; } = 0;
@@ -387,6 +395,8 @@ namespace ViewModel
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Mittagessen_Fett_1)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Mittagessen_Kohlenhydrate_1)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Mittagessen_Proteins_1)));
+
+                tagesübersicht();
             }
         }
         public double Mittagessen_Energie_1 { get; set; } = 0;
@@ -453,6 +463,8 @@ namespace ViewModel
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Mittagessen_Fett_2)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Mittagessen_Kohlenhydrate_2)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Mittagessen_Proteins_2)));
+
+                tagesübersicht();
             }
         }
         public double Mittagessen_Energie_2 { get; set; } = 0;
@@ -519,6 +531,8 @@ namespace ViewModel
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Mittagessen_Fett_3)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Mittagessen_Kohlenhydrate_3)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Mittagessen_Proteins_3)));
+
+                tagesübersicht();
             }
         }
         public double Mittagessen_Energie_3 { get; set; } = 0;
@@ -585,6 +599,8 @@ namespace ViewModel
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Mittagessen_Fett_4)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Mittagessen_Kohlenhydrate_4)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Mittagessen_Proteins_4)));
+
+                tagesübersicht();
             }
         }
         public double Mittagessen_Energie_4 { get; set; } = 0;
@@ -651,6 +667,8 @@ namespace ViewModel
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Abendessen_Fett_1)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Abendessen_Kohlenhydrate_1)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Abendessen_Proteins_1)));
+
+                tagesübersicht();
             }
         }
         public double Abendessen_Energie_1 { get; set; } = 0;
@@ -717,6 +735,8 @@ namespace ViewModel
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Abendessen_Fett_2)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Abendessen_Kohlenhydrate_2)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Abendessen_Proteins_2)));
+
+                tagesübersicht();
             }
         }
         public double Abendessen_Energie_2 { get; set; } = 0;
@@ -783,6 +803,8 @@ namespace ViewModel
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Abendessen_Fett_3)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Abendessen_Kohlenhydrate_3)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Abendessen_Proteins_3)));
+
+                tagesübersicht();
             }
         }
         public double Abendessen_Energie_3 { get; set; } = 0;
@@ -849,6 +871,8 @@ namespace ViewModel
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Abendessen_Fett_4)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Abendessen_Kohlenhydrate_4)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Abendessen_Proteins_4)));
+
+                tagesübersicht();
             }
         }
         public double Abendessen_Energie_4 { get; set; } = 0;
@@ -915,6 +939,8 @@ namespace ViewModel
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Sonstiges_Fett_1)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Sonstiges_Kohlenhydrate_1)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Sonstiges_Proteins_1)));
+
+                tagesübersicht();
             }
         }
         public double Sonstiges_Energie_1 { get; set; } = 0;
@@ -981,6 +1007,8 @@ namespace ViewModel
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Sonstiges_Fett_2)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Sonstiges_Kohlenhydrate_2)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Sonstiges_Proteins_2)));
+
+                tagesübersicht();
             }
         }
         public double Sonstiges_Energie_2 { get; set; } = 0;
@@ -1047,6 +1075,8 @@ namespace ViewModel
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Sonstiges_Fett_3)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Sonstiges_Kohlenhydrate_3)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Sonstiges_Proteins_3)));
+
+                tagesübersicht();
             }
         }
         public double Sonstiges_Energie_3 { get; set; } = 0;
@@ -1113,6 +1143,8 @@ namespace ViewModel
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Sonstiges_Fett_4)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Sonstiges_Kohlenhydrate_4)));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Sonstiges_Proteins_4)));
+
+                tagesübersicht();
             }
         }
         public double Sonstiges_Energie_4 { get; set; } = 0;
@@ -1138,6 +1170,8 @@ namespace ViewModel
         public ViewModel()
         {
             loadProdukt();
+
+
         }
 
         // CommandMethoden
@@ -1264,6 +1298,31 @@ namespace ViewModel
                 }
             }
         }
+        public void loadPerson()
+        {
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(SQLHelper.CnnVal("Ernaehrungsplan_Datenbank")))
+            {
+                try
+                {
+                    var output = connection.Query<PersonListe>($"select * from Personen_Datenbank").ToList();
+
+                    Ist_Zunahmen = output.First().Total;
+                    Ist_Fett = output.First().Bedarf_Fett;
+                    Ist_Kohlenhydrate = output.First().Bedarf_Kohlenhydrate;
+                    Ist_Proteins = output.First().Bedarf_Protein;
+
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Ist_Zunahmen)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Ist_Fett)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Ist_Kohlenhydrate)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Ist_Proteins)));
+                }
+                catch
+                {
+
+                }
+
+            }
+        }
         public void loadPersonData()
         {
             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(SQLHelper.CnnVal("Ernaehrungsplan_Datenbank")))
@@ -1274,6 +1333,11 @@ namespace ViewModel
                 Soll_Fett = output.First().Bedarf_Fett;
                 Soll_Kohlenhydrate = output.First().Bedarf_Kohlenhydrate;
                 Soll_Proteins = output.First().Bedarf_Protein;
+
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Soll_Zunahmen)));
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Soll_Fett)));
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Soll_Kohlenhydrate)));
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Soll_Proteins)));
 
             }
         }
@@ -1672,6 +1736,48 @@ namespace ViewModel
                     }
                 }
             }
+        }
+        public void tagesübersicht()
+        {
+            double Frühstück_Energie = Frühstück_Energie_1 + Frühstück_Energie_2 + Frühstück_Energie_3 + Frühstück_Energie_4;
+            double Frühstück_Fett = Frühstück_Fett_1 + Frühstück_Fett_2 + Frühstück_Fett_3 + Frühstück_Fett_4;
+            double Frühstück_KHydrate = Frühstück_Kohlenhydrate_1 + Frühstück_Kohlenhydrate_2 + Frühstück_Kohlenhydrate_3 + Frühstück_Kohlenhydrate_4;
+            double Frühstück_Protein = Frühstück_Proteins_1 + Frühstück_Proteins_2 + Frühstück_Proteins_3 + Frühstück_Proteins_4;
+
+            double Mittagessen_Energie = Mittagessen_Energie_1 + Mittagessen_Energie_2 + Mittagessen_Energie_3 + Mittagessen_Energie_4;
+            double Mittagessen_Fett = Mittagessen_Fett_1 + Mittagessen_Fett_2 + Mittagessen_Fett_3 + Mittagessen_Fett_4;
+            double Mittagessen_KHydrate = Mittagessen_Kohlenhydrate_1 + Mittagessen_Kohlenhydrate_2 + Mittagessen_Kohlenhydrate_3 + Mittagessen_Kohlenhydrate_4;
+            double Mittagessen_Protein = Mittagessen_Proteins_1 + Mittagessen_Proteins_2 + Mittagessen_Proteins_3 + Mittagessen_Proteins_4;
+
+            double Abendessen_Energie = Abendessen_Energie_1 + Abendessen_Energie_2 + Abendessen_Energie_3 + Abendessen_Energie_4;
+            double Abendessen_Fett = Abendessen_Fett_1 + Abendessen_Fett_2 + Abendessen_Fett_3 + Abendessen_Fett_4;
+            double Abendessen_KHydrate = Abendessen_Kohlenhydrate_1 + Abendessen_Kohlenhydrate_2 + Abendessen_Kohlenhydrate_3 + Abendessen_Kohlenhydrate_4;
+            double Abendessen_Protein = Abendessen_Proteins_1 + Abendessen_Proteins_2 + Abendessen_Proteins_3 + Abendessen_Proteins_4;
+
+            double Sonstiges_Energie = Sonstiges_Energie_1 + Sonstiges_Energie_2 + Sonstiges_Energie_3 + Sonstiges_Energie_4;
+            double Sonstiges_Fett = Sonstiges_Fett_1 + Sonstiges_Fett_2 + Sonstiges_Fett_3 + Sonstiges_Fett_4;
+            double Sonstiges_KHydrate = Sonstiges_Kohlenhydrate_1 + Sonstiges_Kohlenhydrate_2 + Sonstiges_Kohlenhydrate_3 + Sonstiges_Kohlenhydrate_4;
+            double Sonstiges_Protein = Sonstiges_Proteins_1 + Sonstiges_Proteins_2 + Sonstiges_Proteins_3 + Sonstiges_Proteins_4;
+
+            Ist_Zunahmen = Frühstück_Energie + Mittagessen_Energie + Abendessen_Energie + Sonstiges_Energie;
+            Ist_Fett = Frühstück_Fett + Mittagessen_Fett + Abendessen_Fett + Sonstiges_Fett;
+            Ist_Kohlenhydrate = Frühstück_KHydrate + Mittagessen_KHydrate + Abendessen_KHydrate + Sonstiges_KHydrate;
+            Ist_Proteins = Frühstück_Protein + Mittagessen_Protein + Abendessen_Protein + Sonstiges_Protein;
+
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Ist_Zunahmen)));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Ist_Fett)));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Ist_Kohlenhydrate)));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Ist_Proteins)));
+
+            Diff_Zunahmen = Soll_Zunahmen - Ist_Zunahmen;
+            Diff_Fett = Soll_Fett - Ist_Fett;
+            Diff_Kohlenhydrate = Soll_Kohlenhydrate - Ist_Kohlenhydrate;
+            Diff_Proteins = Soll_Proteins - Ist_Proteins;
+
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Diff_Zunahmen)));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Diff_Fett)));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Diff_Kohlenhydrate)));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Diff_Proteins)));
         }
 
     
