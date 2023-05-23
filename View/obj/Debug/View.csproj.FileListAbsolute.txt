@@ -16,3 +16,7 @@ C:\Users\yanni\OneDrive\02_Projekte\Ernährungsplan_Programm\Ernaehrungsplan\Vie
 C:\Users\yanni\OneDrive\02_Projekte\Ernährungsplan_Programm\Ernaehrungsplan\View\obj\Debug\View.csproj.CopyComplete
 C:\Users\yanni\OneDrive\02_Projekte\Ernährungsplan_Programm\Ernaehrungsplan\View\obj\Debug\View.exe
 C:\Users\yanni\OneDrive\02_Projekte\Ernährungsplan_Programm\Ernaehrungsplan\View\obj\Debug\View.pdb
+C:\Users\yanni\OneDrive\02_Projekte\Ernährungsplan_Programm\Ernaehrungsplan\View\bin\Debug\Model.dll
+C:\Users\yanni\OneDrive\02_Projekte\Ernährungsplan_Programm\Ernaehrungsplan\View\bin\Debug\Dapper.dll
+C:\Users\yanni\OneDrive\02_Projekte\Ernährungsplan_Programm\Ernaehrungsplan\View\bin\Debug\Model.pdb
+C:\Users\yanni\OneDrive\02_Projekte\Ernährungsplan_Programm\Ernaehrungsplan\View\bin\Debug\Dapper.xml

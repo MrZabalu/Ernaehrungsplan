@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\View\packages\Dapper.2.0.123\lib\net461\Dapper.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,6 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\Informationen\Informationen_CalculateCommand.cs" />
+    <Compile Include="Commands\Informationen\Informationen_SaveCommand.cs" />
+    <Compile Include="Commands\Produktdatenbank\Produktdatenbank_DeleteCommand.cs" />
+    <Compile Include="Commands\Produktdatenbank\Produktdatenbank_LoadCommand.cs" />
+    <Compile Include="Commands\Produktdatenbank\Produktdatenbank_SaveCommand.cs" />
+    <Compile Include="Commands\Tagesplaner\Tagesplaner_LoadCommand.cs" />
+    <Compile Include="Listen\PersonListe.cs" />
+    <Compile Include="Listen\ProduktListe.cs" />
     <Compile Include="ViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -49,6 +60,9 @@
       <Project>{1acb31f2-359c-4226-96cb-01c0d8cd3101}</Project>
       <Name>Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
